@@ -1,0 +1,104 @@
+{
+    "categories":[
+        {
+            "id": 1,
+            "name": "Giày Nike"
+        },
+        {
+            "id": 2,
+            "name": "Giày MLB"
+        },
+        {
+           
+            "id": 3,
+            "name": "Giày  converse" 
+        }
+       
+        
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "Giày Sneaker Adidas Samba \"Cloud White\"",
+            "cate_id": 1,
+            "price": 5000000,
+            "detail": "Adidas Samba OG  B75806 là một đôi giày sneaker cổ điển được yêu thích bởi phong cách đơn giản và linh hoạt. Đôi giày này được làm bằng da cao cấp với phần trên màu trắng và các điểm nhấn màu đen. Nó có đế ngoài bằng cao su màu nâu gum mang lại độ bám và độ bền",
+            "image": "../images/giay1.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Giày Sneaker Adidas Centennial 85 Low \"Green\"",
+            "cate_id": 2,
+            "price": 2500000,
+            "detail": "mang đến sự kết hợp hoàn hảo giữa phong cách cổ điển và hiện đại. Lấy cảm hứng từ thiết kế tennis thập niên 70, đôi giày này được khoác lên mình sắc hồng thời thượng, tạo nên điểm nhấn ấn tượng cho mọi outfit",
+            "image": "../images/giay2.jpg"
+
+        },
+        {
+        "id": 3,
+        "name": "Giày sneakers unisex cổ thấp Chunky Runner Basic",
+        "cate_id": 3,
+        "price": 12000000,
+        "detail": "mang đến sự kết hợp hoàn hảo giữa phong cách cổ điển và hiện đại. Lấy cảm hứng từ thiết kế tennis thập niên 70, đôi giày này được khoác lên mình sắc hồng thời thượng, tạo nên điểm nhấn ấn tượng cho mọi outfit",
+        "image": "../images/giay3.jpg"
+    },
+        {
+            "id": 4,
+            "name": "Giày Sneaker Adidas Nam Nữ Advantage Base ",
+            "cate_id": 4,
+            "price": 2350000,
+            "detail": "Mang lại cảm giác hoài cổ cho diện mạo hàng ngày của bạn với đôi Giày Sneaker Adidas Nam Nữ này. Phần trên bằng da tổng hợp có độ bền cao nhưng vẫn mềm mại để mang lại cảm giác vừa vặn thoải mái",
+            "image": "../images/giay4.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Giày Sneaker Nike Nữ Air Jordan 1 High Og \"Silver\" ",
+            "cate_id": 5,
+            "price": 300000,
+            "detail":   " là một đôi giày thể thao với thiết kế đơn giản và hiện đại, mang đến sự thoải mái và phong cách cho người mang. ",
+            "image": "../images/giay5.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Giày Sneaker Adidas Nam Nữ Superstar 20 \"Black Stripes\" ",
+            "cate_id": 6,
+            "price": 300000,
+            "detail":  "là lựa chọn hoàn hảo cho những ai yêu thích phong cách cổ điển, cá tính và năng động",
+            "image": "../images/giay6.jpg"
+        }
+
+    ],
+    "orders": [
+                {
+                    "id": 1,
+                    "customer_name": "Kieu Trang",
+                    "customer_address": "137 Nguyen Thi Thap",
+                    "customer_email": "vothikieutrang882004@gmail.com",
+                    "customer_phone_number": "0786665444",
+                    "created_date": "01/06/2019 ",
+                    "status": "Khách hàng thân thiết"
+                },
+                {
+                    "id": 2,
+                    "customer_name": "Trang Võ",
+                    "customer_address": ":204 - Huy Tưởng - Thanh Khê",
+                    "customer_email": "trangvkt@fpt.edu.vn",
+                    "customer_phone_number": "0785499555",
+                    "created_date": "01/06/2019",
+                    "status": "Khách hàng mới"
+                }
+            ],
+    "order_details": [
+                {
+                    "order_id": 2,
+                    "product_id": 5,
+                    "quantity": 4,
+                    "unit_price": 200000
+                },
+                {
+                    "order_id": 4,
+                    "product_id": 7,
+                    "quantity": 1,
+                    "unit_price": 80000        }
+    ]
+}

@@ -1,7 +1,10 @@
 # websitegiay
 website bán giày 
 #### Mô tả chức năng
-đây là websie bán giày người dùng có thể mua nó..
+- đây là websie bán giày người dùng có thể mua nó..
+- người dùng có thể add product vào trang
+- người dùng có thể Edit, Update hoặc Delete
+- 
 ### Cách chạy 
 - oper with liver server
 ### Hình ảnh website 
